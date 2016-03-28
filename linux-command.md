@@ -28,7 +28,13 @@ Anything from copy, delete, remove and dealing with VIM or NANO.. I love nano so
 ** Note **
 We can also do this ``` tar -cvf - file1 file2 dir3 | gzip > archive.tar.gz ```
   
-  
+
+### Working with files and folders
+  + Create folders: ``` mkdir -p website.io/html website.io/logs ```  >>  "-p" To create folder and immediate folders if required.
+  + Remove folder and all content inside recusively: ``` rm -rf folder-name ``` 
+  + Folder size: ```  du -hs /path/to/directory ```
+  + List files inside folder & showing filesize: ```  ls -lSrh  ```
+  + 
 
 ## Server stuffs
 
