@@ -34,7 +34,11 @@ We can also do this ``` tar -cvf - file1 file2 dir3 | gzip > archive.tar.gz ```
   + Remove folder and all content inside recusively: ``` rm -rf folder-name ``` 
   + Folder size: ```  du -hs /path/to/directory ```
   + List files inside folder & showing filesize: ```  ls -lSrh  ```
-  + 
+  + Disk space: ``` df -h ```
+  + Download file from one server to other: 
+    ```bash
+    wget http://domain.com/filename.tar.gz
+    ```
 
 ## Server stuffs
 The following command line and instructions are performed on Ubuntu server version 14.0 and provided by DigitalOcean.
